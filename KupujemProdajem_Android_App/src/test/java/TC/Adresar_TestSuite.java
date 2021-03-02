@@ -40,7 +40,7 @@ public class Adresar_TestSuite {
 			AppSetupLocal.closeDriver();
 		}
 		
-		/* TC1_InsertContactToAddressBook
+		/* TC_003_Adresar - Successfully add a user to the Address Book with a comment in the note
 		 * This test case checks the possibility of inserting contacts into the address book. 
 		 * The user logs in, selects any ad and contact from it. Saves contact together with the note. 
 		 * It goes to the address book and checks if it is that saved contact by verifying the contact name and note. 
@@ -48,7 +48,7 @@ public class Adresar_TestSuite {
 		 */ 
 		@Test 
 		@Parameters({ "searchParameter", "dialogTxt" })
-		public void TC1_InsertContactToAddressBook(String searchParameterNG, String dialogTxtNG) throws InterruptedException {
+		public void TC_003_Adresar(String searchParameterNG, String dialogTxtNG) throws InterruptedException {
 			
 			//Add Contact to Address book
 			AddContact addContact = new AddContact();

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-02T10:24:59 CET" name="Suite" finished-at="2021-03-02T10:25:34 CET" duration-ms="34750">
+  <suite started-at="2021-03-02T11:50:06 CET" name="Suite" finished-at="2021-03-02T11:51:11 CET" duration-ms="65075">
     <groups>
     </groups>
-    <test started-at="2021-03-02T10:24:59 CET" name="Test" finished-at="2021-03-02T10:25:34 CET" duration-ms="34750">
+    <test started-at="2021-03-02T11:50:06 CET" name="Test" finished-at="2021-03-02T11:51:11 CET" duration-ms="65075">
       <class name="TC.Adresar_TestSuite">
-        <test-method is-config="true" signature="setupServicesApplication()[pri:0, instance:TC.Adresar_TestSuite@48fa0f47]" started-at="2021-03-02T10:24:51 CET" name="setupServicesApplication" finished-at="2021-03-02T10:24:59 CET" duration-ms="8189" status="PASS">
+        <test-method is-config="true" signature="setupServicesApplication()[pri:0, instance:TC.Adresar_TestSuite@7c469c48]" started-at="2021-03-02T11:49:58 CET" name="setupServicesApplication" finished-at="2021-03-02T11:50:06 CET" duration-ms="8244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupServicesApplication -->
-        <test-method is-config="true" signature="loginUserToApp(java.lang.String, java.lang.String)[pri:0, instance:TC.Adresar_TestSuite@48fa0f47]" started-at="2021-03-02T10:24:59 CET" name="loginUserToApp" finished-at="2021-03-02T10:25:04 CET" duration-ms="5328" status="PASS">
+        <test-method is-config="true" signature="loginUserToApp(java.lang.String, java.lang.String)[pri:0, instance:TC.Adresar_TestSuite@7c469c48]" started-at="2021-03-02T11:50:06 CET" name="loginUserToApp" finished-at="2021-03-02T11:50:12 CET" duration-ms="6160" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginUserToApp -->
-        <test-method signature="TC1_InsertContactToAddressBook(java.lang.String, java.lang.String)[pri:0, instance:TC.Adresar_TestSuite@48fa0f47]" started-at="2021-03-02T10:25:04 CET" name="TC1_InsertContactToAddressBook" finished-at="2021-03-02T10:25:30 CET" duration-ms="25947" status="PASS">
+        <test-method signature="TC1_InsertContactToAddressBook(java.lang.String, java.lang.String)[pri:0, instance:TC.Adresar_TestSuite@7c469c48]" started-at="2021-03-02T11:50:12 CET" name="TC1_InsertContactToAddressBook" finished-at="2021-03-02T11:50:42 CET" duration-ms="30065" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -40,14 +40,99 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SIXNS340', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.kupujemprodajem.android..., appPackage: com.kupujemprodajem.android, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.kupujemprodajem.android..., appPackage: com.kupujemprodajem.android, automationName: uiautomator2, fullReset: false, noReset: true, platformName: Android, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 374, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.3375, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 56, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2112, left: 0, top: 56, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: dc7fea3c-3e1c-4558-80d1-5dab7f20713c
+*** Element info: {Using=xpath, value=//android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView[@text='Početna']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SIXNS340', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.kupujemprodajem.android..., appPackage: com.kupujemprodajem.android, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.kupujemprodajem.android..., appPackage: com.kupujemprodajem.android, automationName: uiautomator2, fullReset: false, noReset: true, platformName: Android, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 374, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.3375, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 56, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2112, left: 0, top: 56, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: dc7fea3c-3e1c-4558-80d1-5dab7f20713c
+*** Element info: {Using=xpath, value=//android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView[@text='Početna']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at pom_KupujemProdajem.NavigationBar.clickNavigationBarPocetnaButton(NavigationBar.java:50)
+at RTSB.AddContact.AddContactToAddressBook(AddContact.java:20)
+at TC.Adresar_TestSuite.TC1_InsertContactToAddressBook(Adresar_TestSuite.java:55)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC1_InsertContactToAddressBook -->
-        <test-method is-config="true" signature="logingOutUserFromApp()[pri:0, instance:TC.Adresar_TestSuite@48fa0f47]" started-at="2021-03-02T10:25:30 CET" name="logingOutUserFromApp" finished-at="2021-03-02T10:25:34 CET" duration-ms="3446" status="PASS">
+        <test-method is-config="true" signature="logingOutUserFromApp()[pri:0, instance:TC.Adresar_TestSuite@7c469c48]" started-at="2021-03-02T11:50:42 CET" name="logingOutUserFromApp" finished-at="2021-03-02T11:51:11 CET" duration-ms="28812" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logingOutUserFromApp -->
-        <test-method is-config="true" signature="shutdownServicesApplication()[pri:0, instance:TC.Adresar_TestSuite@48fa0f47]" started-at="2021-03-02T10:25:34 CET" name="shutdownServicesApplication" finished-at="2021-03-02T10:25:35 CET" duration-ms="1679" status="PASS">
+        <test-method is-config="true" signature="shutdownServicesApplication()[pri:0, instance:TC.Adresar_TestSuite@7c469c48]" started-at="2021-03-02T11:51:11 CET" name="shutdownServicesApplication" finished-at="2021-03-02T11:51:13 CET" duration-ms="1708" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutdownServicesApplication -->
