@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-02T10:24:59 CET" name="Suite" finished-at="2021-03-02T10:25:34 CET" duration-ms="34750">
+    <groups>
+    </groups>
+    <test started-at="2021-03-02T10:24:59 CET" name="Test" finished-at="2021-03-02T10:25:34 CET" duration-ms="34750">
+      <class name="TC.Adresar_TestSuite">
+        <test-method is-config="true" signature="setupServicesApplication()[pri:0, instance:TC.Adresar_TestSuite@48fa0f47]" started-at="2021-03-02T10:24:51 CET" name="setupServicesApplication" finished-at="2021-03-02T10:24:59 CET" duration-ms="8189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupServicesApplication -->
+        <test-method is-config="true" signature="loginUserToApp(java.lang.String, java.lang.String)[pri:0, instance:TC.Adresar_TestSuite@48fa0f47]" started-at="2021-03-02T10:24:59 CET" name="loginUserToApp" finished-at="2021-03-02T10:25:04 CET" duration-ms="5328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[umilens@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[umilens]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUserToApp -->
+        <test-method signature="TC1_InsertContactToAddressBook(java.lang.String, java.lang.String)[pri:0, instance:TC.Adresar_TestSuite@48fa0f47]" started-at="2021-03-02T10:25:04 CET" name="TC1_InsertContactToAddressBook" finished-at="2021-03-02T10:25:30 CET" duration-ms="25947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Burton cizme]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ovo je proba za Test Case 007]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_InsertContactToAddressBook -->
+        <test-method is-config="true" signature="logingOutUserFromApp()[pri:0, instance:TC.Adresar_TestSuite@48fa0f47]" started-at="2021-03-02T10:25:30 CET" name="logingOutUserFromApp" finished-at="2021-03-02T10:25:34 CET" duration-ms="3446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logingOutUserFromApp -->
+        <test-method is-config="true" signature="shutdownServicesApplication()[pri:0, instance:TC.Adresar_TestSuite@48fa0f47]" started-at="2021-03-02T10:25:34 CET" name="shutdownServicesApplication" finished-at="2021-03-02T10:25:35 CET" duration-ms="1679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdownServicesApplication -->
+      </class> <!-- TC.Adresar_TestSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
