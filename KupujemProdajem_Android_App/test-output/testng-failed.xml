@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <parameter name="dialogTxt" value="Ovo je proba za Test Case 007"/>
-  <parameter name="passwrod" value="umilens"/>
+  <parameter name="password" value="umilens"/>
+  <parameter name="dialogTxt" value="Put some text here"/>
   <parameter name="searchParameter" value="Burton cizme"/>
   <parameter name="username" value="umilens@gmail.com"/>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="TC.Adresar_TestSuite">
+      <class name="testCases.Adresar_TestSuite">
         <methods>
-          <include name="logingOutUserFromApp"/>
+          <include name="TC_003_Adresar_Add_Conntact_To_AddressBook_Note" invocation-numbers="0"/>
           <include name="shutdownServicesApplication"/>
           <include name="loginUserToApp"/>
           <include name="setupServicesApplication"/>
-          <include name="TC1_InsertContactToAddressBook" invocation-numbers="0"/>
+          <include name="logingOutUserFromApp"/>
         </methods>
-      </class> <!-- TC.Adresar_TestSuite -->
+      </class> <!-- testCases.Adresar_TestSuite -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

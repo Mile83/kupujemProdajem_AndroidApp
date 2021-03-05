@@ -1,4 +1,4 @@
-package pom_KupujemProdajem;
+package pages;
 
 
 
@@ -22,7 +22,7 @@ public class NavigationBar {
 	//String obavestenjaBtn = "//android.widget.LinearLayout/android.widget.LinearLayout[4]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.TextView[@text='Obaveštenja']";
 	String mojKPBtn = "//android.widget.LinearLayout/android.widget.LinearLayout[5]/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView[@text='Moj kp']";
 
-	//@AndroidFindBy(xpath = "//android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView[@text='Početna']")
+	//@AndroidFindBy(xpath = "//android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView[@text='Po�?etna']")
 	//MobileElement pocetnaBtn;
 
 	@AndroidFindBy(xpath = "//android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.TextView[@text='Poruke']")

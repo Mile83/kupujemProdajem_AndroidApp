@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+ 	<parameter name="username" value="umilens@gmail.com"/> 
+    <parameter name="password" value="umilens"/> 
+    <parameter name="searchParameter" value="Burton cizme"/> 
+    <parameter name="dialogTxt" value="Put some text here"/>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testCases.Adresar_TestSuite"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

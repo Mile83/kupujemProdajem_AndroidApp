@@ -1,6 +1,6 @@
-package RTSB;
+package reusableTestStepBlock;
 
-import pom_KupujemProdajem.LoginPage;
+import pages.LoginPage;
 
 
 public class LogIn {

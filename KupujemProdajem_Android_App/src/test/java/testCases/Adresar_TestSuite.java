@@ -1,12 +1,12 @@
-package TC;
+package testCases;
 
 import java.net.MalformedURLException;
 
 import org.testng.annotations.*;
 
 import Base.*;
-import RTSB.*;
-import pom_KupujemProdajem.*;
+import pages.*;
+import reusableTestStepBlock.*;
 
 
 
@@ -40,15 +40,15 @@ public class Adresar_TestSuite {
 			AppSetupLocal.closeDriver();
 		}
 		
-		/* TC_003_Adresar - Successfully add a user to the Address Book with a comment in the note
+		/* TC_003_Adresar_Add_Conntact_To_AddressBook_Note - Successfully add a user to the Address Book with a comment in the note
 		 * This test case checks the possibility of inserting contacts into the address book. 
 		 * The user logs in, selects any ad and contact from it. Saves contact together with the note. 
 		 * It goes to the address book and checks if it is that saved contact by verifying the contact name and note. 
 		 * After all, it deletes the contact and the user logs out of the application.
 		 */ 
-		@Test 
+		@Test (retryAnalyzer = listeners.MyRetry.class)
 		@Parameters({ "searchParameter", "dialogTxt" })
-		public void TC_003_Adresar(String searchParameterNG, String dialogTxtNG) throws InterruptedException {
+		public void TC_003_Adresar_Add_Conntact_To_AddressBook_Note(String searchParameterNG, String dialogTxtNG) throws InterruptedException {
 			
 			//Add Contact to Address book
 			AddContact addContact = new AddContact();
@@ -63,7 +63,7 @@ public class Adresar_TestSuite {
 			MojKP mojKP = new MojKP();
 			mojKP.clickAdresarBtn();
 			
-			//Verify add Contact
+			//Verify added Contact
 			//Verify Owner Name
 			Adresar adresar = new Adresar();
 			adresar.verifyAdresarOwnerNameTxt();

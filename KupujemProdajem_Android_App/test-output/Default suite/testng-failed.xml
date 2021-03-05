@@ -9,7 +9,7 @@
           <include name="shutdownServicesApplication"/>
           <include name="loginUserToApp"/>
           <include name="setupServicesApplication"/>
-          <include name="TC1_InsertContactToAddressBook"/>
+          <include name="TC_003_Adresar_Add_Conntact_To_AddressBook_Note"/>
         </methods>
       </class> <!-- TC.Adresar_TestSuite -->
     </classes>

@@ -1,4 +1,4 @@
-package pom_KupujemProdajem;
+package pages;
 
 
 import org.openqa.selenium.By;

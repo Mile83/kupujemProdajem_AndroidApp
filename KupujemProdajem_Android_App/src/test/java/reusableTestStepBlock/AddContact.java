@@ -1,6 +1,6 @@
-package RTSB;
+package reusableTestStepBlock;
 
-import pom_KupujemProdajem.*;
+import pages.*;
 
 public class AddContact {
 	

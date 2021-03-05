@@ -1,9 +1,8 @@
-package RTSB;
+package reusableTestStepBlock;
 
-import pom_KupujemProdajem.LogOutPopUpMsg;
-
-import pom_KupujemProdajem.MojKP;
-import pom_KupujemProdajem.NavigationBar;
+import pages.LogOutPopUpMsg;
+import pages.MojKP;
+import pages.NavigationBar;
 
 
 public class LogOut {
