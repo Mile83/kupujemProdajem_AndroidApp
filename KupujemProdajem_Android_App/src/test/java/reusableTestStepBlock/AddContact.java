@@ -8,9 +8,9 @@ public class AddContact {
 		/* This Reusable Test Step Block goes through the process of inserting a contact into the address book with note.
 		 * The prerequisite is that the user is logged in to the Application.
 		 * He uses the location of Novi Sad as an ad place
-		 * And "Burton cizme" as a search parameter.
+		 * And search paramete is provided through TestNG DataProviders - "searchParameterNG"
 		 * And it Buffers values for Ad Owner for later verification
-		 * Note Txt is "Ovo je proba za Test Case 007"
+		 * Note Txt is is provided through TestNG DataProviders - "VialogTxtNG"
 		 */
 	
 		public void AddContactToAddressBook(String searchParameter, String dialogTxtNG) {	

@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TC.Adresar_TestSuite">
+      <class name="testCases.Adresar_TestSuite">
         <methods>
-          <include name="logingOutUserFromApp"/>
+          <include name="TC_003_Adresar_Add_Conntact_To_AddressBook_Note"/>
           <include name="shutdownServicesApplication"/>
           <include name="loginUserToApp"/>
           <include name="setupServicesApplication"/>
-          <include name="TC_003_Adresar_Add_Conntact_To_AddressBook_Note"/>
+          <include name="logingOutUserFromApp"/>
         </methods>
-      </class> <!-- TC.Adresar_TestSuite -->
+      </class> <!-- testCases.Adresar_TestSuite -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

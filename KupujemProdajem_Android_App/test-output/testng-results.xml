@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-05T10:20:04 CET" name="Suite" finished-at="2021-03-05T10:20:37 CET" duration-ms="33534">
+  <suite started-at="2021-03-06T11:13:34 CET" name="Suite" finished-at="2021-03-06T11:14:09 CET" duration-ms="35242">
     <groups>
     </groups>
-    <test started-at="2021-03-05T10:20:04 CET" name="Test" finished-at="2021-03-05T10:20:37 CET" duration-ms="33534">
+    <test started-at="2021-03-06T11:13:34 CET" name="Test" finished-at="2021-03-06T11:14:09 CET" duration-ms="35242">
       <class name="testCases.Adresar_TestSuite">
-        <test-method is-config="true" signature="setupServicesApplication()[pri:0, instance:testCases.Adresar_TestSuite@7c469c48]" started-at="2021-03-05T10:19:56 CET" name="setupServicesApplication" finished-at="2021-03-05T10:20:04 CET" duration-ms="8132" status="PASS">
+        <test-method is-config="true" signature="setupServicesApplication()[pri:0, instance:testCases.Adresar_TestSuite@7dc0f706]" started-at="2021-03-06T11:13:26 CET" name="setupServicesApplication" finished-at="2021-03-06T11:13:34 CET" duration-ms="8029" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupServicesApplication -->
-        <test-method is-config="true" signature="loginUserToApp(java.lang.String, java.lang.String)[pri:0, instance:testCases.Adresar_TestSuite@7c469c48]" started-at="2021-03-05T10:20:04 CET" name="loginUserToApp" finished-at="2021-03-05T10:20:09 CET" duration-ms="5116" status="PASS">
+        <test-method is-config="true" signature="loginUserToApp(java.lang.String, java.lang.String)[pri:0, instance:testCases.Adresar_TestSuite@7dc0f706]" started-at="2021-03-06T11:13:34 CET" name="loginUserToApp" finished-at="2021-03-06T11:13:39 CET" duration-ms="5277" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginUserToApp -->
-        <test-method signature="TC_003_Adresar_Add_Conntact_To_AddressBook_Note(java.lang.String, java.lang.String)[pri:0, instance:testCases.Adresar_TestSuite@7c469c48]" started-at="2021-03-05T10:20:09 CET" name="TC_003_Adresar_Add_Conntact_To_AddressBook_Note" finished-at="2021-03-05T10:20:34 CET" duration-ms="25501" status="PASS">
+        <test-method signature="TC_003_Adresar_Add_Contact_To_AddressBook_Note(java.lang.String, java.lang.String)[pri:0, instance:testCases.Adresar_TestSuite@7dc0f706]" started-at="2021-03-06T11:13:39 CET" name="TC_003_Adresar_Add_Contact_To_AddressBook_Note" finished-at="2021-03-06T11:14:06 CET" duration-ms="27168" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,12 +42,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_003_Adresar_Add_Conntact_To_AddressBook_Note -->
-        <test-method is-config="true" signature="logingOutUserFromApp()[pri:0, instance:testCases.Adresar_TestSuite@7c469c48]" started-at="2021-03-05T10:20:34 CET" name="logingOutUserFromApp" finished-at="2021-03-05T10:20:37 CET" duration-ms="2885" status="PASS">
+        </test-method> <!-- TC_003_Adresar_Add_Contact_To_AddressBook_Note -->
+        <test-method is-config="true" signature="logingOutUserFromApp()[pri:0, instance:testCases.Adresar_TestSuite@7dc0f706]" started-at="2021-03-06T11:14:06 CET" name="logingOutUserFromApp" finished-at="2021-03-06T11:14:09 CET" duration-ms="2760" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logingOutUserFromApp -->
-        <test-method is-config="true" signature="shutdownServicesApplication()[pri:0, instance:testCases.Adresar_TestSuite@7c469c48]" started-at="2021-03-05T10:20:37 CET" name="shutdownServicesApplication" finished-at="2021-03-05T10:20:39 CET" duration-ms="1681" status="PASS">
+        <test-method is-config="true" signature="shutdownServicesApplication()[pri:0, instance:testCases.Adresar_TestSuite@7dc0f706]" started-at="2021-03-06T11:14:09 CET" name="shutdownServicesApplication" finished-at="2021-03-06T11:14:11 CET" duration-ms="1639" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutdownServicesApplication -->

@@ -5,11 +5,14 @@
   <parameter name="dialogTxt" value="Put some text here"/>
   <parameter name="searchParameter" value="Burton cizme"/>
   <parameter name="username" value="umilens@gmail.com"/>
+  <listeners>
+    <listener class-name="extentlisteners.ExtentListeners"/>
+  </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
       <class name="testCases.Adresar_TestSuite">
         <methods>
-          <include name="TC_003_Adresar_Add_Conntact_To_AddressBook_Note" invocation-numbers="0"/>
+          <include name="TC_003_Adresar_Add_Conntact_To_AddressBook_Note" invocation-numbers="0 0 0 0"/>
           <include name="shutdownServicesApplication"/>
           <include name="loginUserToApp"/>
           <include name="setupServicesApplication"/>

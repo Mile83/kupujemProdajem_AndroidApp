@@ -48,7 +48,7 @@ public class Adresar_TestSuite {
 		 */ 
 		@Test (retryAnalyzer = listeners.MyRetry.class)
 		@Parameters({ "searchParameter", "dialogTxt" })
-		public void TC_003_Adresar_Add_Conntact_To_AddressBook_Note(String searchParameterNG, String dialogTxtNG) throws InterruptedException {
+		public void TC_003_Adresar_Add_Contact_To_AddressBook_Note(String searchParameterNG, String dialogTxtNG) throws InterruptedException {
 			
 			//Add Contact to Address book
 			AddContact addContact = new AddContact();
